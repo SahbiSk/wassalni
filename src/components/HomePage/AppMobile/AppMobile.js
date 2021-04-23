@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import AndroidIcon from "@material-ui/icons/Android";
 import AppleIcon from "@material-ui/icons/Apple";
-import mobile from "../../../image/mobile.png";
+import mobile from "../../../image/mobile2.png";
 
 const AppMobile = () => {
   const classes = useStyles();
@@ -43,7 +43,7 @@ const AppMobile = () => {
             </ButtonGroup>
           </Grid>
           <Grid item xs={12} md={6} lg={6}>
-            <img src={mobile} alt="img" />
+            <img src={mobile} alt="img" className={classes.mobileApp} />
           </Grid>
         </Grid>
       </Container>

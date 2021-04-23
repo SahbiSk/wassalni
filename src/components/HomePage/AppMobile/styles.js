@@ -18,6 +18,10 @@ export default makeStyles((theme) => ({
   buttonContainer: {
     marginTop: "20px",
   },
+  mobileApp: {
+    height: "60%",
+    borderRaduis: "50%",
+  },
   button: {
     "&:hover": {
       backgroundColor: "var(--color-blue-light)",

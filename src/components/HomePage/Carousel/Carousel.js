@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiFillLeftCircle, AiFillRightCircle } from "react-icons/ai";
-import { train, cat, got } from "./imgs";
+import { train } from "./imgs";
 import "./Carousel.css";
 import Slide from "./Slide/Slide";
 
@@ -13,19 +13,15 @@ const Carousel = () => {
         "Hello everyone this is a photo album and I'm trying to make this sentance as long as possible so we can see how it looks on the screen",
     },
     {
-      bg: cat,
+      bg:
+        "https://images.unsplash.com/photo-1519567141891-788b756572ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=963&q=80",
       title: "hello there salem alaykom",
       description:
         "aya anesto ay lbs lyom maw ? wiw aya anesto ay lbs lyom maw ? wiw hhehe haajaja hhhahhaa  ahahha e e e e  ee  akakka",
     },
     {
-      bg: got,
-      title: "hello there salem alaykom",
-      description:
-        "aya anesto ay lbs lyom maw ? wiw aya anesto ay lbs lyom maw ? wiw hhehe haajaja hhhahhaa  ahahha e e e e  ee  akakka",
-    },
-    {
-      bg: got,
+      bg:
+        "https://images.unsplash.com/photo-1583809935642-5334675b581c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
       title: "hello there salem alaykom",
       description:
         "aya anesto ay lbs lyom maw ? wiw aya anesto ay lbs lyom maw ? wiw hhehe haajaja hhhahhaa  ahahha e e e e  ee  akakka",
